@@ -1,0 +1,69 @@
+.articles {
+    border-top: 1px;
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+    max-width:1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 40px;
+    
+}
+
+
+.article {
+    border-bottom: 1px;
+    padding: 20px 0;
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+.article-title {
+    margin-top: 0;
+}
+
+.article-title a {
+    text-decoration: none;
+}
+
+.article-title a:hover {
+    color: rgb(248, 169, 169);
+}
+
+.article-time {
+    color: rgb(195, 163, 163);
+    font-size: 12px;
+    
+}
+
+.article-image {
+    max-width: 100%;
+    margin: 30px 0;
+}
+
+.article-summary {
+    line-height: 26px;
+    margin-top: 0;
+    
+}
+
+.article-source {
+    color: rgb(255, 255, 255);
+    
+}
+
+.article-source a {
+    color: rgb(244, 237, 237);
+}
+
+.section{
+    padding: 30px;
+    color: rgb(255, 255, 255);
+}
+.section-title{
+    margin-top: 0;
+}
+.section-description{
+    line-height: 26px;
+}
